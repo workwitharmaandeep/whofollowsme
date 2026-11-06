@@ -1,0 +1,7 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/instagram/action/route": "app/api/instagram/action/route.js",
+  "/api/instagram/login/route": "app/api/instagram/login/route.js",
+  "/page": "app/page.js"
+}

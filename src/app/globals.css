@@ -1,0 +1,105 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+/* ─── Base ─── */
+body {
+  font-family: var(--font-sans);
+  background-color: #fafafa;
+  color: #18181b;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.dark body {
+  background-color: #09090b;
+  color: #f4f4f5;
+}
+
+/* ─── Ambient Glow — single soft violet ─── */
+.ambient-glow {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 1100px;
+  height: 320px;
+  background: radial-gradient(ellipse 55% 40% at 50% 0%, rgba(124, 58, 237, 0.07) 0%, transparent 70%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.dark .ambient-glow {
+  background: radial-gradient(ellipse 55% 40% at 50% 0%, rgba(124, 58, 237, 0.13) 0%, transparent 70%);
+}
+
+/* ─── Cards ─── */
+.card {
+  background-color: #ffffff;
+  border: 1px solid rgba(228, 228, 231, 0.7);
+  border-radius: 1rem;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.03);
+}
+
+.dark .card {
+  background-color: rgba(255, 255, 255, 0.025);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  box-shadow: none;
+}
+
+/* Legacy alias kept for compatibility */
+.card-clean {
+  background-color: #ffffff;
+  border: 1px solid rgba(228, 228, 231, 0.7);
+  border-radius: 1rem;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.03);
+}
+
+.dark .card-clean {
+  background-color: rgba(255, 255, 255, 0.025);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  box-shadow: none;
+}
+
+/* ─── Logo gradient (mark only) ─── */
+.logo-gradient {
+  background: linear-gradient(135deg, #7c3aed 0%, #c026d3 100%);
+}
+
+/* ─── Violet accent text ─── */
+.accent-text {
+  color: #7c3aed;
+}
+.dark .accent-text {
+  color: #a78bfa;
+}
+
+/* Gradient text kept for headings if needed */
+.gradient-text {
+  background: linear-gradient(135deg, #7c3aed 0%, #c026d3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ─── Scrollbar ─── */
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: rgba(161, 161, 170, 0.25);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover { background: rgba(161, 161, 170, 0.45); }
+
+.tab-scroll { scrollbar-width: none; -ms-overflow-style: none; }
+.tab-scroll::-webkit-scrollbar { display: none; }
