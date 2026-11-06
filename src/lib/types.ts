@@ -82,13 +82,4 @@ export interface TabDef {
   warning?: boolean;
 }
 
-// ─── Profile context (session/account metadata) ───
-export interface ProfileContext {
-  username: string;
-  setAt: string;
-  sessionId?: string;
-  csrfToken?: string;
-  userId?: string;
-  authenticated?: boolean;
-}
 

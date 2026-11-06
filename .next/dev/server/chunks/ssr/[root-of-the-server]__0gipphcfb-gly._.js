@@ -1832,8 +1832,7 @@ function Dashboard({ data, relationships, currentSnapshot, previousSnapshot, pro
                                 badgeGetter: ()=>({
                                         label: "Recently Unfollowed You",
                                         color: "text-rose-700 dark:text-rose-400 bg-rose-50 dark:bg-rose-950/40 border border-rose-200/60 dark:border-rose-900/40"
-                                    }),
-                                profile: profile
+                                    })
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Dashboard.tsx",
                                 lineNumber: 277,
@@ -1859,12 +1858,12 @@ function Dashboard({ data, relationships, currentSnapshot, previousSnapshot, pro
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/Dashboard.tsx",
-                                    lineNumber: 300,
+                                    lineNumber: 299,
                                     columnNumber: 17
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Dashboard.tsx",
-                                lineNumber: 299,
+                                lineNumber: 298,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$UserTable$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -1880,17 +1879,16 @@ function Dashboard({ data, relationships, currentSnapshot, previousSnapshot, pro
                                 badgeGetter: ()=>({
                                         label: "New Follower",
                                         color: "text-emerald-700 dark:text-emerald-400 bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200/60 dark:border-emerald-900/40"
-                                    }),
-                                profile: profile
+                                    })
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Dashboard.tsx",
-                                lineNumber: 304,
+                                lineNumber: 303,
                                 columnNumber: 15
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Dashboard.tsx",
-                        lineNumber: 298,
+                        lineNumber: 297,
                         columnNumber: 13
                     }, this),
                     unseenDiff.newFollowing.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1907,12 +1905,12 @@ function Dashboard({ data, relationships, currentSnapshot, previousSnapshot, pro
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/Dashboard.tsx",
-                                    lineNumber: 327,
+                                    lineNumber: 325,
                                     columnNumber: 17
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Dashboard.tsx",
-                                lineNumber: 326,
+                                lineNumber: 324,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$UserTable$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -1928,17 +1926,16 @@ function Dashboard({ data, relationships, currentSnapshot, previousSnapshot, pro
                                 badgeGetter: ()=>({
                                         label: "New Following",
                                         color: "text-blue-700 dark:text-blue-400 bg-blue-50 dark:bg-blue-950/40 border border-blue-200/60 dark:border-blue-900/40"
-                                    }),
-                                profile: profile
+                                    })
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Dashboard.tsx",
-                                lineNumber: 331,
+                                lineNumber: 329,
                                 columnNumber: 15
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Dashboard.tsx",
-                        lineNumber: 325,
+                        lineNumber: 323,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1957,25 +1954,25 @@ function Dashboard({ data, relationships, currentSnapshot, previousSnapshot, pro
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/Dashboard.tsx",
-                                    lineNumber: 356,
+                                    lineNumber: 353,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {
                                     className: "w-4 h-4"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Dashboard.tsx",
-                                    lineNumber: 357,
+                                    lineNumber: 354,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/Dashboard.tsx",
-                            lineNumber: 352,
+                            lineNumber: 349,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/Dashboard.tsx",
-                        lineNumber: 351,
+                        lineNumber: 348,
                         columnNumber: 11
                     }, this)
                 ]
@@ -1996,7 +1993,7 @@ function Dashboard({ data, relationships, currentSnapshot, previousSnapshot, pro
                                         children: "Account:"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Dashboard.tsx",
-                                        lineNumber: 368,
+                                        lineNumber: 365,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2007,13 +2004,13 @@ function Dashboard({ data, relationships, currentSnapshot, previousSnapshot, pro
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Dashboard.tsx",
-                                        lineNumber: 371,
+                                        lineNumber: 368,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Dashboard.tsx",
-                                lineNumber: 367,
+                                lineNumber: 364,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2021,13 +2018,13 @@ function Dashboard({ data, relationships, currentSnapshot, previousSnapshot, pro
                                 children: "100% In-Browser Session"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Dashboard.tsx",
-                                lineNumber: 375,
+                                lineNumber: 372,
                                 columnNumber: 15
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Dashboard.tsx",
-                        lineNumber: 366,
+                        lineNumber: 363,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$KpiCards$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -2037,7 +2034,7 @@ function Dashboard({ data, relationships, currentSnapshot, previousSnapshot, pro
                         dontFollowBackCount: relationships.dontFollowBack.length
                     }, void 0, false, {
                         fileName: "[project]/src/components/Dashboard.tsx",
-                        lineNumber: 382,
+                        lineNumber: 379,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2049,7 +2046,7 @@ function Dashboard({ data, relationships, currentSnapshot, previousSnapshot, pro
                                 onTabChange: setActiveTab
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Dashboard.tsx",
-                                lineNumber: 391,
+                                lineNumber: 388,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2087,16 +2084,15 @@ function Dashboard({ data, relationships, currentSnapshot, previousSnapshot, pro
                                                 badgeGetter: ()=>({
                                                         label: "Doesn't Follow Back",
                                                         color: "text-rose-600 dark:text-rose-400 bg-rose-50 dark:bg-rose-950/40 border border-rose-200/60 dark:border-rose-900/40"
-                                                    }),
-                                                profile: profile
+                                                    })
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Dashboard.tsx",
-                                                lineNumber: 404,
+                                                lineNumber: 401,
                                                 columnNumber: 21
                                             }, this)
                                         }, "tab-dont-follow-back", false, {
                                             fileName: "[project]/src/components/Dashboard.tsx",
-                                            lineNumber: 397,
+                                            lineNumber: 394,
                                             columnNumber: 19
                                         }, this),
                                         activeTab === "mutuals" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -2128,16 +2124,15 @@ function Dashboard({ data, relationships, currentSnapshot, previousSnapshot, pro
                                                 badgeGetter: ()=>({
                                                         label: "Mutual Follower",
                                                         color: "text-emerald-700 dark:text-emerald-400 bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200/60 dark:border-emerald-900/40"
-                                                    }),
-                                                profile: profile
+                                                    })
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Dashboard.tsx",
-                                                lineNumber: 432,
+                                                lineNumber: 428,
                                                 columnNumber: 21
                                             }, this)
                                         }, "tab-mutuals", false, {
                                             fileName: "[project]/src/components/Dashboard.tsx",
-                                            lineNumber: 425,
+                                            lineNumber: 421,
                                             columnNumber: 19
                                         }, this),
                                         activeTab === "fans" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -2169,16 +2164,15 @@ function Dashboard({ data, relationships, currentSnapshot, previousSnapshot, pro
                                                 badgeGetter: ()=>({
                                                         label: "Follows You",
                                                         color: "text-blue-700 dark:text-blue-400 bg-blue-50 dark:bg-blue-950/40 border border-blue-200/60 dark:border-blue-900/40"
-                                                    }),
-                                                profile: profile
+                                                    })
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Dashboard.tsx",
-                                                lineNumber: 459,
+                                                lineNumber: 454,
                                                 columnNumber: 21
                                             }, this)
                                         }, "tab-fans", false, {
                                             fileName: "[project]/src/components/Dashboard.tsx",
-                                            lineNumber: 452,
+                                            lineNumber: 447,
                                             columnNumber: 19
                                         }, this),
                                         activeTab === "pending" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -2210,16 +2204,15 @@ function Dashboard({ data, relationships, currentSnapshot, previousSnapshot, pro
                                                 badgeGetter: ()=>({
                                                         label: "Request Sent",
                                                         color: "text-amber-700 dark:text-amber-400 bg-amber-50 dark:bg-amber-950/40 border border-amber-200/60 dark:border-amber-900/40"
-                                                    }),
-                                                profile: profile
+                                                    })
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Dashboard.tsx",
-                                                lineNumber: 486,
+                                                lineNumber: 480,
                                                 columnNumber: 21
                                             }, this)
                                         }, "tab-pending", false, {
                                             fileName: "[project]/src/components/Dashboard.tsx",
-                                            lineNumber: 479,
+                                            lineNumber: 473,
                                             columnNumber: 19
                                         }, this),
                                         activeTab === "changes" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -2242,12 +2235,12 @@ function Dashboard({ data, relationships, currentSnapshot, previousSnapshot, pro
                                                 currentSnapshot: effectiveSnapshot
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Dashboard.tsx",
-                                                lineNumber: 513,
+                                                lineNumber: 506,
                                                 columnNumber: 21
                                             }, this)
                                         }, "tab-changes", false, {
                                             fileName: "[project]/src/components/Dashboard.tsx",
-                                            lineNumber: 506,
+                                            lineNumber: 499,
                                             columnNumber: 19
                                         }, this),
                                         activeTab === "timeline" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -2271,12 +2264,12 @@ function Dashboard({ data, relationships, currentSnapshot, previousSnapshot, pro
                                                 dontFollowBack: relationships.dontFollowBack
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Dashboard.tsx",
-                                                lineNumber: 525,
+                                                lineNumber: 518,
                                                 columnNumber: 21
                                             }, this)
                                         }, "tab-timeline", false, {
                                             fileName: "[project]/src/components/Dashboard.tsx",
-                                            lineNumber: 518,
+                                            lineNumber: 511,
                                             columnNumber: 19
                                         }, this),
                                         activeTab === "close-friends" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -2302,12 +2295,12 @@ function Dashboard({ data, relationships, currentSnapshot, previousSnapshot, pro
                                                 following: data.following
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Dashboard.tsx",
-                                                lineNumber: 540,
+                                                lineNumber: 533,
                                                 columnNumber: 21
                                             }, this)
                                         }, "tab-close-friends", false, {
                                             fileName: "[project]/src/components/Dashboard.tsx",
-                                            lineNumber: 533,
+                                            lineNumber: 526,
                                             columnNumber: 19
                                         }, this),
                                         activeTab === "recently-unfollowed" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -2332,12 +2325,12 @@ function Dashboard({ data, relationships, currentSnapshot, previousSnapshot, pro
                                                 onToggleVisited: markVisited
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Dashboard.tsx",
-                                                lineNumber: 557,
+                                                lineNumber: 550,
                                                 columnNumber: 21
                                             }, this)
                                         }, "tab-recently-unfollowed", false, {
                                             fileName: "[project]/src/components/Dashboard.tsx",
-                                            lineNumber: 550,
+                                            lineNumber: 543,
                                             columnNumber: 19
                                         }, this),
                                         activeTab === "whitelisted" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -2369,16 +2362,15 @@ function Dashboard({ data, relationships, currentSnapshot, previousSnapshot, pro
                                                 badgeGetter: ()=>({
                                                         label: "Whitelisted",
                                                         color: "text-amber-700 dark:text-amber-400 bg-amber-50 dark:bg-amber-950/40 border border-amber-200/60 dark:border-amber-900/40"
-                                                    }),
-                                                profile: profile
+                                                    })
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Dashboard.tsx",
-                                                lineNumber: 573,
+                                                lineNumber: 566,
                                                 columnNumber: 21
                                             }, this)
                                         }, "tab-whitelisted", false, {
                                             fileName: "[project]/src/components/Dashboard.tsx",
-                                            lineNumber: 566,
+                                            lineNumber: 559,
                                             columnNumber: 19
                                         }, this),
                                         activeTab === "my-profile" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -2408,35 +2400,35 @@ function Dashboard({ data, relationships, currentSnapshot, previousSnapshot, pro
                                                 onDeleteSession: onDeleteSession
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Dashboard.tsx",
-                                                lineNumber: 600,
+                                                lineNumber: 592,
                                                 columnNumber: 21
                                             }, this)
                                         }, "tab-my-profile", false, {
                                             fileName: "[project]/src/components/Dashboard.tsx",
-                                            lineNumber: 593,
+                                            lineNumber: 585,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/Dashboard.tsx",
-                                    lineNumber: 395,
+                                    lineNumber: 392,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Dashboard.tsx",
-                                lineNumber: 394,
+                                lineNumber: 391,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Dashboard.tsx",
-                        lineNumber: 390,
+                        lineNumber: 387,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/Dashboard.tsx",
-                lineNumber: 363,
+                lineNumber: 360,
                 columnNumber: 9
             }, this)
         ]
@@ -5216,7 +5208,7 @@ function ProfileModal({ user, isOpen, onClose, isWhitelisted, onToggleWhitelist,
                     className: "fixed inset-0 z-50 bg-black/30 dark:bg-black/50 backdrop-blur-sm"
                 }, "modal-backdrop", false, {
                     fileName: "[project]/src/components/ProfileModal.tsx",
-                    lineNumber: 48,
+                    lineNumber: 45,
                     columnNumber: 11
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -5245,12 +5237,12 @@ function ProfileModal({ user, isOpen, onClose, isWhitelisted, onToggleWhitelist,
                                 className: "w-9 h-1 rounded-full bg-zinc-200 dark:bg-zinc-700"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/ProfileModal.tsx",
-                                lineNumber: 69,
+                                lineNumber: 66,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/ProfileModal.tsx",
-                            lineNumber: 68,
+                            lineNumber: 65,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -5260,12 +5252,12 @@ function ProfileModal({ user, isOpen, onClose, isWhitelisted, onToggleWhitelist,
                                 className: "w-3.5 h-3.5"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/ProfileModal.tsx",
-                                lineNumber: 77,
+                                lineNumber: 74,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/ProfileModal.tsx",
-                            lineNumber: 73,
+                            lineNumber: 70,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5279,7 +5271,7 @@ function ProfileModal({ user, isOpen, onClose, isWhitelisted, onToggleWhitelist,
                                             children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["getInitial"])(user.username)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/ProfileModal.tsx",
-                                            lineNumber: 84,
+                                            lineNumber: 81,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5293,7 +5285,7 @@ function ProfileModal({ user, isOpen, onClose, isWhitelisted, onToggleWhitelist,
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/ProfileModal.tsx",
-                                                    lineNumber: 88,
+                                                    lineNumber: 85,
                                                     columnNumber: 19
                                                 }, this),
                                                 user.timestamp > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5303,7 +5295,7 @@ function ProfileModal({ user, isOpen, onClose, isWhitelisted, onToggleWhitelist,
                                                             className: "w-3 h-3 shrink-0"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/ProfileModal.tsx",
-                                                            lineNumber: 93,
+                                                            lineNumber: 90,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -5311,13 +5303,13 @@ function ProfileModal({ user, isOpen, onClose, isWhitelisted, onToggleWhitelist,
                                                             children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["relativeTime"])(user.timestamp)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/ProfileModal.tsx",
-                                                            lineNumber: 94,
+                                                            lineNumber: 91,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/ProfileModal.tsx",
-                                                    lineNumber: 92,
+                                                    lineNumber: 89,
                                                     columnNumber: 21
                                                 }, this),
                                                 badge && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -5325,19 +5317,19 @@ function ProfileModal({ user, isOpen, onClose, isWhitelisted, onToggleWhitelist,
                                                     children: badge.label
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/ProfileModal.tsx",
-                                                    lineNumber: 98,
+                                                    lineNumber: 95,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/ProfileModal.tsx",
-                                            lineNumber: 87,
+                                            lineNumber: 84,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/ProfileModal.tsx",
-                                    lineNumber: 83,
+                                    lineNumber: 80,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5351,14 +5343,14 @@ function ProfileModal({ user, isOpen, onClose, isWhitelisted, onToggleWhitelist,
                                                     className: "w-3.5 h-3.5"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/ProfileModal.tsx",
-                                                    lineNumber: 111,
+                                                    lineNumber: 108,
                                                     columnNumber: 19
                                                 }, this),
                                                 "Unfollow on Instagram"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/ProfileModal.tsx",
-                                            lineNumber: 107,
+                                            lineNumber: 104,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -5370,20 +5362,20 @@ function ProfileModal({ user, isOpen, onClose, isWhitelisted, onToggleWhitelist,
                                                     fill: isWhitelisted ? "currentColor" : "none"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/ProfileModal.tsx",
-                                                    lineNumber: 123,
+                                                    lineNumber: 120,
                                                     columnNumber: 19
                                                 }, this),
                                                 isWhitelisted ? "Whitelisted" : "Whitelist"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/ProfileModal.tsx",
-                                            lineNumber: 115,
+                                            lineNumber: 112,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/ProfileModal.tsx",
-                                    lineNumber: 106,
+                                    lineNumber: 103,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -5397,7 +5389,7 @@ function ProfileModal({ user, isOpen, onClose, isWhitelisted, onToggleWhitelist,
                                             className: "w-3 h-3 shrink-0"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/ProfileModal.tsx",
-                                            lineNumber: 139,
+                                            lineNumber: 136,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -5408,36 +5400,36 @@ function ProfileModal({ user, isOpen, onClose, isWhitelisted, onToggleWhitelist,
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/ProfileModal.tsx",
-                                            lineNumber: 140,
+                                            lineNumber: 137,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/ProfileModal.tsx",
-                                    lineNumber: 132,
+                                    lineNumber: 129,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/ProfileModal.tsx",
-                            lineNumber: 81,
+                            lineNumber: 78,
                             columnNumber: 13
                         }, this)
                     ]
                 }, "modal-panel", true, {
                     fileName: "[project]/src/components/ProfileModal.tsx",
-                    lineNumber: 59,
+                    lineNumber: 56,
                     columnNumber: 11
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/ProfileModal.tsx",
-            lineNumber: 46,
+            lineNumber: 43,
             columnNumber: 9
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/ProfileModal.tsx",
-        lineNumber: 44,
+        lineNumber: 41,
         columnNumber: 5
     }, this);
 }
@@ -7467,7 +7459,7 @@ function UserRow({ user, isWhitelisted, isVisited, onToggleWhitelist, onMarkVisi
                 className: "w-3.5 h-3.5 rounded border-zinc-300 dark:border-zinc-700 text-violet-600 focus:ring-0 cursor-pointer shrink-0"
             }, void 0, false, {
                 fileName: "[project]/src/components/UserRow.tsx",
-                lineNumber: 57,
+                lineNumber: 54,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7475,7 +7467,7 @@ function UserRow({ user, isWhitelisted, isVisited, onToggleWhitelist, onMarkVisi
                 children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["getInitial"])(user.username)
             }, void 0, false, {
                 fileName: "[project]/src/components/UserRow.tsx",
-                lineNumber: 69,
+                lineNumber: 66,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7492,7 +7484,7 @@ function UserRow({ user, isWhitelisted, isVisited, onToggleWhitelist, onMarkVisi
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/UserRow.tsx",
-                                lineNumber: 76,
+                                lineNumber: 73,
                                 columnNumber: 11
                             }, this),
                             isUnfollowed && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -7502,14 +7494,14 @@ function UserRow({ user, isWhitelisted, isVisited, onToggleWhitelist, onMarkVisi
                                         className: "w-2.5 h-2.5"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/UserRow.tsx",
-                                        lineNumber: 81,
+                                        lineNumber: 78,
                                         columnNumber: 15
                                     }, this),
                                     " Opened"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/UserRow.tsx",
-                                lineNumber: 80,
+                                lineNumber: 77,
                                 columnNumber: 13
                             }, this),
                             !isUnfollowed && badge && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -7517,13 +7509,13 @@ function UserRow({ user, isWhitelisted, isVisited, onToggleWhitelist, onMarkVisi
                                 children: badge.label
                             }, void 0, false, {
                                 fileName: "[project]/src/components/UserRow.tsx",
-                                lineNumber: 85,
+                                lineNumber: 82,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/UserRow.tsx",
-                        lineNumber: 75,
+                        lineNumber: 72,
                         columnNumber: 9
                     }, this),
                     user.timestamp > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -7532,13 +7524,13 @@ function UserRow({ user, isWhitelisted, isVisited, onToggleWhitelist, onMarkVisi
                         children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["relativeTime"])(user.timestamp)
                     }, void 0, false, {
                         fileName: "[project]/src/components/UserRow.tsx",
-                        lineNumber: 91,
+                        lineNumber: 88,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/UserRow.tsx",
-                lineNumber: 74,
+                lineNumber: 71,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7554,12 +7546,12 @@ function UserRow({ user, isWhitelisted, isVisited, onToggleWhitelist, onMarkVisi
                             fill: isWhitelisted ? "currentColor" : "none"
                         }, void 0, false, {
                             fileName: "[project]/src/components/UserRow.tsx",
-                            lineNumber: 113,
+                            lineNumber: 110,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/UserRow.tsx",
-                        lineNumber: 104,
+                        lineNumber: 101,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -7571,20 +7563,20 @@ function UserRow({ user, isWhitelisted, isVisited, onToggleWhitelist, onMarkVisi
                                 className: "w-3 h-3 text-rose-500"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/UserRow.tsx",
-                                lineNumber: 123,
+                                lineNumber: 120,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 children: "Unfollow"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/UserRow.tsx",
-                                lineNumber: 124,
+                                lineNumber: 121,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/UserRow.tsx",
-                        lineNumber: 118,
+                        lineNumber: 115,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -7598,24 +7590,24 @@ function UserRow({ user, isWhitelisted, isVisited, onToggleWhitelist, onMarkVisi
                             className: "w-3.5 h-3.5"
                         }, void 0, false, {
                             fileName: "[project]/src/components/UserRow.tsx",
-                            lineNumber: 136,
+                            lineNumber: 133,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/UserRow.tsx",
-                        lineNumber: 128,
+                        lineNumber: 125,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/UserRow.tsx",
-                lineNumber: 98,
+                lineNumber: 95,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/UserRow.tsx",
-        lineNumber: 47,
+        lineNumber: 44,
         columnNumber: 5
     }, this);
 }
@@ -7654,7 +7646,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 ;
 ;
 ;
-function UserTable({ users, whitelistSet, visitedSet, onToggleWhitelist, onMarkVisited, onBulkWhitelist, onResetVisited, showWhitelist = true, hideWhitelisted = false, tabLabel, badgeGetter, profile }) {
+function UserTable({ users, whitelistSet, visitedSet, onToggleWhitelist, onMarkVisited, onBulkWhitelist, onResetVisited, showWhitelist = true, hideWhitelisted = false, tabLabel, badgeGetter }) {
     const [searchQuery, setSearchQuery] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])("");
     const [sortOption, setSortOption] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])("newest");
     const [hideChecked, setHideChecked] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
@@ -7735,7 +7727,7 @@ function UserTable({ users, whitelistSet, visitedSet, onToggleWhitelist, onMarkV
                 filteredCount: processedUsers.length
             }, void 0, false, {
                 fileName: "[project]/src/components/UserTable.tsx",
-                lineNumber: 113,
+                lineNumber: 110,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7752,20 +7744,20 @@ function UserTable({ users, whitelistSet, visitedSet, onToggleWhitelist, onMarkV
                                         className: "w-3 h-3"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/UserTable.tsx",
-                                        lineNumber: 129,
+                                        lineNumber: 126,
                                         columnNumber: 28
                                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$eye$2d$off$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__EyeOff$3e$__["EyeOff"], {
                                         className: "w-3 h-3"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/UserTable.tsx",
-                                        lineNumber: 129,
+                                        lineNumber: 126,
                                         columnNumber: 58
                                     }, this),
                                     hideChecked ? "Show reviewed" : "Hide reviewed"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/UserTable.tsx",
-                                lineNumber: 125,
+                                lineNumber: 122,
                                 columnNumber: 11
                             }, this),
                             onResetVisited && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -7776,14 +7768,14 @@ function UserTable({ users, whitelistSet, visitedSet, onToggleWhitelist, onMarkV
                                         className: "w-3 h-3"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/UserTable.tsx",
-                                        lineNumber: 138,
+                                        lineNumber: 135,
                                         columnNumber: 15
                                     }, this),
                                     "Reset"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/UserTable.tsx",
-                                lineNumber: 134,
+                                lineNumber: 131,
                                 columnNumber: 13
                             }, this),
                             onBulkWhitelist && selectedUsers.size > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -7797,7 +7789,7 @@ function UserTable({ users, whitelistSet, visitedSet, onToggleWhitelist, onMarkV
                                         className: "w-3 h-3 fill-amber-500"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/UserTable.tsx",
-                                        lineNumber: 151,
+                                        lineNumber: 148,
                                         columnNumber: 15
                                     }, this),
                                     "Whitelist ",
@@ -7805,13 +7797,13 @@ function UserTable({ users, whitelistSet, visitedSet, onToggleWhitelist, onMarkV
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/UserTable.tsx",
-                                lineNumber: 144,
+                                lineNumber: 141,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/UserTable.tsx",
-                        lineNumber: 124,
+                        lineNumber: 121,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7827,14 +7819,14 @@ function UserTable({ users, whitelistSet, visitedSet, onToggleWhitelist, onMarkV
                                         className: "w-3 h-3 rounded border-zinc-300 dark:border-zinc-700 text-violet-600 focus:ring-0 cursor-pointer"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/UserTable.tsx",
-                                        lineNumber: 160,
+                                        lineNumber: 157,
                                         columnNumber: 15
                                     }, this),
                                     "Select page"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/UserTable.tsx",
-                                lineNumber: 159,
+                                lineNumber: 156,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ExportButton$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["ExportButton"], {
@@ -7842,19 +7834,19 @@ function UserTable({ users, whitelistSet, visitedSet, onToggleWhitelist, onMarkV
                                 filename: tabLabel
                             }, void 0, false, {
                                 fileName: "[project]/src/components/UserTable.tsx",
-                                lineNumber: 169,
+                                lineNumber: 166,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/UserTable.tsx",
-                        lineNumber: 157,
+                        lineNumber: 154,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/UserTable.tsx",
-                lineNumber: 123,
+                lineNumber: 120,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7885,16 +7877,15 @@ function UserTable({ users, whitelistSet, visitedSet, onToggleWhitelist, onMarkV
                                 onToggleSelect: toggleSelect,
                                 showWhitelist: showWhitelist,
                                 badge: badgeGetter?.(user) ?? null,
-                                profile: profile,
                                 onOpenProfileModal: (u)=>setModalUser(u)
                             }, user.username, false, {
                                 fileName: "[project]/src/components/UserTable.tsx",
-                                lineNumber: 186,
+                                lineNumber: 183,
                                 columnNumber: 17
                             }, this))
                     }, `${currentPage}-${searchQuery}-${sortOption}`, false, {
                         fileName: "[project]/src/components/UserTable.tsx",
-                        lineNumber: 177,
+                        lineNumber: 174,
                         columnNumber: 13
                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "py-14 text-center",
@@ -7904,7 +7895,7 @@ function UserTable({ users, whitelistSet, visitedSet, onToggleWhitelist, onMarkV
                                 children: "No matching accounts"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/UserTable.tsx",
-                                lineNumber: 204,
+                                lineNumber: 200,
                                 columnNumber: 15
                             }, this),
                             searchQuery && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -7912,23 +7903,23 @@ function UserTable({ users, whitelistSet, visitedSet, onToggleWhitelist, onMarkV
                                 children: "Clear the search to show all"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/UserTable.tsx",
-                                lineNumber: 206,
+                                lineNumber: 202,
                                 columnNumber: 17
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/UserTable.tsx",
-                        lineNumber: 203,
+                        lineNumber: 199,
                         columnNumber: 13
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/UserTable.tsx",
-                    lineNumber: 175,
+                    lineNumber: 172,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/UserTable.tsx",
-                lineNumber: 174,
+                lineNumber: 171,
                 columnNumber: 7
             }, this),
             totalPages > 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7943,14 +7934,14 @@ function UserTable({ users, whitelistSet, visitedSet, onToggleWhitelist, onMarkV
                                 className: "w-3.5 h-3.5"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/UserTable.tsx",
-                                lineNumber: 221,
+                                lineNumber: 217,
                                 columnNumber: 13
                             }, this),
                             "Previous"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/UserTable.tsx",
-                        lineNumber: 216,
+                        lineNumber: 212,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -7964,7 +7955,7 @@ function UserTable({ users, whitelistSet, visitedSet, onToggleWhitelist, onMarkV
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/UserTable.tsx",
-                        lineNumber: 224,
+                        lineNumber: 220,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -7977,26 +7968,25 @@ function UserTable({ users, whitelistSet, visitedSet, onToggleWhitelist, onMarkV
                                 className: "w-3.5 h-3.5"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/UserTable.tsx",
-                                lineNumber: 233,
+                                lineNumber: 229,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/UserTable.tsx",
-                        lineNumber: 227,
+                        lineNumber: 223,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/UserTable.tsx",
-                lineNumber: 215,
+                lineNumber: 211,
                 columnNumber: 9
             }, this),
             modalUser && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ProfileModal$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                 user: modalUser,
                 isOpen: Boolean(modalUser),
                 onClose: ()=>setModalUser(null),
-                profile: profile ?? null,
                 isWhitelisted: whitelistSet.has(modalUser.username),
                 isVisited: visitedSet.has(modalUser.username),
                 onToggleWhitelist: onToggleWhitelist,
@@ -8004,13 +7994,13 @@ function UserTable({ users, whitelistSet, visitedSet, onToggleWhitelist, onMarkV
                 badge: badgeGetter?.(modalUser) ?? null
             }, void 0, false, {
                 fileName: "[project]/src/components/UserTable.tsx",
-                lineNumber: 240,
+                lineNumber: 236,
                 columnNumber: 9
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/UserTable.tsx",
-        lineNumber: 111,
+        lineNumber: 108,
         columnNumber: 5
     }, this);
 }
@@ -8290,7 +8280,7 @@ function useLocalStorage(key, initialValue) {
 }
 function useWhitelist(accountUsername) {
     const cleanAccount = accountUsername?.trim().toLowerCase().replace(/^@/, "");
-    const storageKey = cleanAccount ? `whofollows_whitelist_${cleanAccount}` : "instapulse_whitelist";
+    const storageKey = cleanAccount ? `whofollows_whitelist_${cleanAccount}` : "whofollowsme_whitelist_default";
     const [list, setList] = useLocalStorage(storageKey, []);
     const whitelistSet = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useMemo"])(()=>new Set(list), [
         list
@@ -8342,7 +8332,7 @@ function useWhitelist(accountUsername) {
 }
 function useVisited(accountUsername) {
     const cleanAccount = accountUsername?.trim().toLowerCase().replace(/^@/, "");
-    const storageKey = cleanAccount ? `whofollows_visited_${cleanAccount}` : "instapulse_visited";
+    const storageKey = cleanAccount ? `whofollows_visited_${cleanAccount}` : "whofollowsme_visited_default";
     const [list, setList] = useLocalStorage(storageKey, []);
     const visitedSet = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useMemo"])(()=>new Set(list), [
         list
@@ -8579,8 +8569,6 @@ function downloadBlob(content, filename, type) {
 "use strict";
 
 __turbopack_context__.s([
-    "buildMaps",
-    ()=>buildMaps,
     "clearAllSessionDataForUser",
     ()=>clearAllSessionDataForUser,
     "db",
@@ -8593,14 +8581,8 @@ __turbopack_context__.s([
     ()=>diffSnapshots,
     "getAllSnapshots",
     ()=>getAllSnapshots,
-    "getDistinctAccounts",
-    ()=>getDistinctAccounts,
-    "getLatestSnapshotForUser",
-    ()=>getLatestSnapshotForUser,
     "getSnapshot",
     ()=>getSnapshot,
-    "getSnapshotsForUser",
-    ()=>getSnapshotsForUser,
     "saveSnapshot",
     ()=>saveSnapshot
 ]);
@@ -8625,30 +8607,6 @@ async function saveSnapshot(snapshot) {
 async function getAllSnapshots() {
     return db.snapshots.orderBy("date").reverse().toArray();
 }
-async function getDistinctAccounts() {
-    const all = await getAllSnapshots();
-    const seen = new Set();
-    const accounts = [];
-    for (const s of all){
-        if (s.username) {
-            const clean = s.username.trim().toLowerCase();
-            if (!seen.has(clean)) {
-                seen.add(clean);
-                accounts.push(s.username.trim());
-            }
-        }
-    }
-    return accounts;
-}
-async function getSnapshotsForUser(username) {
-    const clean = username.trim().toLowerCase();
-    const all = await getAllSnapshots();
-    return all.filter((s)=>s.username?.trim().toLowerCase() === clean);
-}
-async function getLatestSnapshotForUser(username) {
-    const userSnapshots = await getSnapshotsForUser(username);
-    return userSnapshots[0];
-}
 async function getSnapshot(id) {
     return db.snapshots.get(id);
 }
@@ -8668,13 +8626,6 @@ async function clearAllSessionDataForUser(username) {
     await deleteSnapshotsForUser(username);
     if ("TURBOPACK compile-time falsy", 0) //TURBOPACK unreachable
     ;
-}
-function buildMaps(users) {
-    const map = {};
-    for (const user of users){
-        map[user.username] = user;
-    }
-    return map;
 }
 function diffSnapshots(previous, current) {
     const prevFollowers = new Set(Object.keys(previous.followersMap));

@@ -27,33 +27,6 @@ export async function getAllSnapshots(): Promise<Snapshot[]> {
   return db.snapshots.orderBy("date").reverse().toArray();
 }
 
-export async function getDistinctAccounts(): Promise<string[]> {
-  const all = await getAllSnapshots();
-  const seen = new Set<string>();
-  const accounts: string[] = [];
-  for (const s of all) {
-    if (s.username) {
-      const clean = s.username.trim().toLowerCase();
-      if (!seen.has(clean)) {
-        seen.add(clean);
-        accounts.push(s.username.trim());
-      }
-    }
-  }
-  return accounts;
-}
-
-export async function getSnapshotsForUser(username: string): Promise<Snapshot[]> {
-  const clean = username.trim().toLowerCase();
-  const all = await getAllSnapshots();
-  return all.filter((s) => s.username?.trim().toLowerCase() === clean);
-}
-
-export async function getLatestSnapshotForUser(username: string): Promise<Snapshot | undefined> {
-  const userSnapshots = await getSnapshotsForUser(username);
-  return userSnapshots[0];
-}
-
 export async function getSnapshot(id: number): Promise<Snapshot | undefined> {
   return db.snapshots.get(id);
 }
@@ -89,16 +62,6 @@ export async function clearAllSessionDataForUser(username: string): Promise<void
       /* ignore */
     }
   }
-}
-
-export function buildMaps(
-  users: InstagramUser[]
-): Record<string, InstagramUser> {
-  const map: Record<string, InstagramUser> = {};
-  for (const user of users) {
-    map[user.username] = user;
-  }
-  return map;
 }
 
 export function diffSnapshots(

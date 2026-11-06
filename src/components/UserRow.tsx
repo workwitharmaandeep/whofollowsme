@@ -4,7 +4,6 @@ import { useState } from "react";
 import { Star, ExternalLink, Check, UserMinus } from "lucide-react";
 import { formatDate, relativeTime, getInitial, openInstagramProfile } from "@/lib/utils";
 import type { InstagramUser } from "@/lib/types";
-import type { UsernameProfile } from "@/components/UsernameChip";
 
 interface UserRowProps {
   user: InstagramUser;
@@ -16,9 +15,7 @@ interface UserRowProps {
   onToggleSelect?: (username: string) => void;
   showWhitelist?: boolean;
   badge?: { label: string; color: string } | null;
-  profile?: UsernameProfile | null;
   onOpenProfileModal?: (user: InstagramUser) => void;
-  onActionSuccess?: (username: string, action: "unfollow" | "follow") => void;
 }
 
 export default function UserRow({

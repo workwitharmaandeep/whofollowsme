@@ -7,7 +7,6 @@ import ProfileModal from "./ProfileModal";
 import { usePagination } from "@/hooks/usePagination";
 import { sortUsers, filterUsers } from "@/lib/computeSets";
 import type { InstagramUser, SortOption } from "@/lib/types";
-import type { UsernameProfile } from "@/components/UsernameChip";
 import { useState, useMemo, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {
@@ -31,7 +30,6 @@ interface UserTableProps {
   hideWhitelisted?: boolean;
   tabLabel: string;
   badgeGetter?: (user: InstagramUser) => { label: string; color: string } | null;
-  profile?: UsernameProfile | null;
 }
 
 export default function UserTable({
@@ -46,7 +44,6 @@ export default function UserTable({
   hideWhitelisted = false,
   tabLabel,
   badgeGetter,
-  profile,
 }: UserTableProps) {
   const [searchQuery, setSearchQuery] = useState("");
   const [sortOption, setSortOption] = useState<SortOption>("newest");
@@ -194,7 +191,6 @@ export default function UserTable({
                   onToggleSelect={toggleSelect}
                   showWhitelist={showWhitelist}
                   badge={badgeGetter?.(user) ?? null}
-                  profile={profile}
                   onOpenProfileModal={(u) => setModalUser(u)}
                 />
               ))}
@@ -241,7 +237,6 @@ export default function UserTable({
           user={modalUser}
           isOpen={Boolean(modalUser)}
           onClose={() => setModalUser(null)}
-          profile={profile ?? null}
           isWhitelisted={whitelistSet.has(modalUser.username)}
           isVisited={visitedSet.has(modalUser.username)}
           onToggleWhitelist={onToggleWhitelist}

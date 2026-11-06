@@ -8,20 +8,17 @@ import {
   Calendar,
 } from "lucide-react";
 import type { InstagramUser } from "@/lib/types";
-import type { UsernameProfile } from "@/components/UsernameChip";
 import { formatDate, relativeTime, getInitial, openInstagramProfile } from "@/lib/utils";
 
 interface ProfileModalProps {
   user: InstagramUser | null;
   isOpen: boolean;
   onClose: () => void;
-  profile: UsernameProfile | null;
   isWhitelisted: boolean;
   isVisited: boolean;
   onToggleWhitelist: (username: string) => void;
   onMarkVisited: (username: string) => void;
   badge?: { label: string; color: string } | null;
-  onActionSuccess?: (username: string, action: "unfollow" | "follow") => void;
 }
 
 export default function ProfileModal({

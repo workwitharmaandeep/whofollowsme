@@ -45,7 +45,7 @@ export function useWhitelist(accountUsername?: string) {
   const cleanAccount = accountUsername?.trim().toLowerCase().replace(/^@/, "");
   const storageKey = cleanAccount
     ? `whofollows_whitelist_${cleanAccount}`
-    : "instapulse_whitelist";
+    : "whofollowsme_whitelist_default";
 
   const [list, setList] = useLocalStorage<string[]>(
     storageKey,
@@ -103,7 +103,7 @@ export function useVisited(accountUsername?: string) {
   const cleanAccount = accountUsername?.trim().toLowerCase().replace(/^@/, "");
   const storageKey = cleanAccount
     ? `whofollows_visited_${cleanAccount}`
-    : "instapulse_visited";
+    : "whofollowsme_visited_default";
 
   const [list, setList] = useLocalStorage<string[]>(
     storageKey,

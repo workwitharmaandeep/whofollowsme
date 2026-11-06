@@ -288,7 +288,6 @@ export default function Dashboard({
                   label: "Recently Unfollowed You",
                   color: "text-rose-700 dark:text-rose-400 bg-rose-50 dark:bg-rose-950/40 border border-rose-200/60 dark:border-rose-900/40",
                 })}
-                profile={profile}
               />
             </div>
           )}
@@ -315,7 +314,6 @@ export default function Dashboard({
                   label: "New Follower",
                   color: "text-emerald-700 dark:text-emerald-400 bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200/60 dark:border-emerald-900/40",
                 })}
-                profile={profile}
               />
             </div>
           )}
@@ -342,7 +340,6 @@ export default function Dashboard({
                   label: "New Following",
                   color: "text-blue-700 dark:text-blue-400 bg-blue-50 dark:bg-blue-950/40 border border-blue-200/60 dark:border-blue-900/40",
                 })}
-                profile={profile}
               />
             </div>
           )}
@@ -416,7 +413,6 @@ export default function Dashboard({
                         label: "Doesn't Follow Back",
                         color: "text-rose-600 dark:text-rose-400 bg-rose-50 dark:bg-rose-950/40 border border-rose-200/60 dark:border-rose-900/40",
                       })}
-                      profile={profile}
                     />
                   </motion.div>
                 )}
@@ -443,7 +439,6 @@ export default function Dashboard({
                         label: "Mutual Follower",
                         color: "text-emerald-700 dark:text-emerald-400 bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200/60 dark:border-emerald-900/40",
                       })}
-                      profile={profile}
                     />
                   </motion.div>
                 )}
@@ -470,7 +465,6 @@ export default function Dashboard({
                         label: "Follows You",
                         color: "text-blue-700 dark:text-blue-400 bg-blue-50 dark:bg-blue-950/40 border border-blue-200/60 dark:border-blue-900/40",
                       })}
-                      profile={profile}
                     />
                   </motion.div>
                 )}
@@ -497,7 +491,6 @@ export default function Dashboard({
                         label: "Request Sent",
                         color: "text-amber-700 dark:text-amber-400 bg-amber-50 dark:bg-amber-950/40 border border-amber-200/60 dark:border-amber-900/40",
                       })}
-                      profile={profile}
                     />
                   </motion.div>
                 )}
@@ -584,7 +577,6 @@ export default function Dashboard({
                         label: "Whitelisted",
                         color: "text-amber-700 dark:text-amber-400 bg-amber-50 dark:bg-amber-950/40 border border-amber-200/60 dark:border-amber-900/40",
                       })}
-                      profile={profile}
                     />
                   </motion.div>
                 )}

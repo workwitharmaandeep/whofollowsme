@@ -460,7 +460,6 @@
     --radius-lg: .5rem;
     --radius-xl: .75rem;
     --radius-2xl: 1rem;
-    --animate-spin: spin 1s linear infinite;
     --animate-pulse: pulse 2s cubic-bezier(.4, 0, .6, 1) infinite;
     --blur-xs: 4px;
     --blur-sm: 8px;
@@ -1055,10 +1054,6 @@
     height: 100%;
   }
 
-  .max-h-48 {
-    max-height: calc(var(--spacing) * 48);
-  }
-
   .max-h-56 {
     max-height: calc(var(--spacing) * 56);
   }
@@ -1155,10 +1150,6 @@
     width: calc(var(--spacing) * 32);
   }
 
-  .w-52 {
-    width: calc(var(--spacing) * 52);
-  }
-
   .w-60 {
     width: calc(var(--spacing) * 60);
   }
@@ -1181,10 +1172,6 @@
 
   .max-w-\[140px\] {
     max-width: 140px;
-  }
-
-  .max-w-\[150px\] {
-    max-width: 150px;
   }
 
   .max-w-\[170px\] {
@@ -1273,10 +1260,6 @@
 
   .animate-pulse {
     animation: var(--animate-pulse);
-  }
-
-  .animate-spin {
-    animation: var(--animate-spin);
   }
 
   .cursor-default {
@@ -2711,10 +2694,6 @@
       scale: 1.02;
     }
 
-    .hover\:border-violet-500:hover {
-      border-color: var(--color-violet-500);
-    }
-
     .hover\:border-zinc-300:hover {
       border-color: var(--color-zinc-300);
     }
@@ -2911,10 +2890,6 @@
     opacity: .4;
   }
 
-  .disabled\:opacity-50:disabled {
-    opacity: .5;
-  }
-
   @media (min-width: 40rem) {
     .sm\:inset-auto {
       inset: auto;
@@ -2944,10 +2919,6 @@
       display: inline;
     }
 
-    .sm\:inline-flex {
-      display: inline-flex;
-    }
-
     .sm\:w-52 {
       width: calc(var(--spacing) * 52);
     }
@@ -2958,14 +2929,6 @@
 
     .sm\:max-w-\[170px\] {
       max-width: 170px;
-    }
-
-    .sm\:max-w-\[180px\] {
-      max-width: 180px;
-    }
-
-    .sm\:max-w-\[200px\] {
-      max-width: 200px;
     }
 
     .sm\:max-w-xs {
@@ -3830,10 +3793,6 @@
   }
 
   @media (hover: hover) {
-    .dark\:hover\:border-violet-500:where(.dark, .dark *):hover {
-      border-color: var(--color-violet-500);
-    }
-
     .dark\:hover\:border-white\/\[0\.1\]:where(.dark, .dark *):hover {
       border-color: #ffffff1a;
     }
@@ -4415,12 +4374,6 @@ body {
 @property --tw-duration {
   syntax: "*";
   inherits: false
-}
-
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 @keyframes pulse {

@@ -40,18 +40,6 @@
       "regex": "^/_not\\-found(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/_not\\-found(?:/)?$"
-    },
-    {
-      "page": "/api/instagram/action",
-      "regex": "^/api/instagram/action(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/api/instagram/action(?:/)?$"
-    },
-    {
-      "page": "/api/instagram/login",
-      "regex": "^/api/instagram/login(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/api/instagram/login(?:/)?$"
     }
   ],
   "dataRoutes": [],
